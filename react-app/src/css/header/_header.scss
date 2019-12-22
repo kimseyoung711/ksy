@@ -1,0 +1,18 @@
+.useHeaderComponents {
+    position:relative;
+    width:100%;
+    background:#000;
+    .useHeader {
+        &__wrapper {
+            width:1400px;
+            height:80px;
+            margin:0 auto;
+            ul {
+                color:#fff;
+                li {
+
+                }
+            }
+        }
+    }
+}

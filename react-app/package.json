@@ -37,6 +37,7 @@
     "jest-resolve": "24.9.0",
     "jest-watch-typeahead": "0.4.2",
     "mini-css-extract-plugin": "0.8.0",
+    "node-sass": "^4.13.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "pnp-webpack-plugin": "1.5.0",
     "postcss-flexbugs-fixes": "4.1.0",
@@ -48,9 +49,11 @@
     "react-app-polyfill": "^1.0.5",
     "react-dev-utils": "^10.0.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "resolve": "1.12.2",
     "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.0",
+    "semantic-ui-react": "^0.88.2",
     "semver": "6.3.0",
     "style-loader": "1.0.0",
     "terser-webpack-plugin": "2.2.1",
@@ -141,7 +144,7 @@
       "react-app"
     ]
   },
-  "homepage": "http://kimseyoung711.github.io/deploy-app",
+  "homepage": "http://kimseyoung711.github.io/ksy",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }
