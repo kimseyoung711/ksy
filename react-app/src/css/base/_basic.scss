@@ -3,6 +3,31 @@
     padding:0;
 }
 
+h1, h2, h3, h4, h5 {
+    font-size: inherit;
+}
+
 ul, li {
     list-style: none;
+}
+
+input { border:0px; }
+
+//font markup ft1 => font-size:1px;
+@for $i from 1 through 60 {
+    .ft#{$i} { font-size: 1px * $i; }
+}
+
+//width height pxw-1 => width:1px;, pxh-1 => height:1px;
+@for $i from 1 through 1000 {
+    .pxw-#{$i} { width: 1px * $i; }
+    .pxh-#{$i} { height: 1px * $i; }
+}
+
+.after {
+    &::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
 }

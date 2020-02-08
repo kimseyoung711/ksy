@@ -1,16 +1,46 @@
 .useHeaderComponents {
-    position:relative;
+    position:fixed;
+    top:0;
+    z-index: 500;
     width:100%;
-    background:#000;
+    background-color: rgb(3, 7, 8);
     .useHeader {
         &__wrapper {
-            width:1400px;
-            height:80px;
+            padding:0 50px;
+            height:72px;
             margin:0 auto;
-            ul {
+            .logo_wrap {
+                float:left;
                 color:#fff;
-                li {
-
+                > h1 {
+                    padding-top:25px;
+                }
+            }
+            .search-wrap {
+                position:relative;
+                height:40px;
+                float:right;
+                > .ui.input {
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    vertical-align: middle;
+                    border-radius: 2px;
+                    height:30px;
+                }
+                .orderIcon {
+                    right:15px;
+                    text-align: center;
+                    vertical-align: middle;
+                    color:#fff;
+                    line-height:11px;
+                    top:27px;
+                    width:15px;
+                    border-radius:30px;
+                    height:15px;
+                    position: relative;
+                    background-color:#888;
+                    display: none;
                 }
             }
         }
